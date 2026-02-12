@@ -1,0 +1,273 @@
+[08-Feb-2026 11:31:51 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetchAll() in C:\Users\ahmie\Desktop\Sugo\home.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\home.php on line 23
+[08-Feb-2026 11:32:01 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetchAll() in C:\Users\ahmie\Desktop\Sugo\home.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\home.php on line 23
+[08-Feb-2026 11:36:33 Europe/Berlin] PHP Fatal error:  Uncaught Error: Call to undefined method PDO::fetchAll() in C:\Users\ahmie\Desktop\Sugo\home.php:23
+Stack trace:
+#0 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\home.php on line 23
+[08-Feb-2026 11:52:21 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement in C:\Users\ahmie\Desktop\Sugo\discover.php:14
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\discover.php(14): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\discover.php on line 14
+[08-Feb-2026 11:52:25 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement in C:\Users\ahmie\Desktop\Sugo\discover.php:14
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\discover.php(14): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\discover.php on line 14
+[08-Feb-2026 11:52:43 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement in C:\Users\ahmie\Desktop\Sugo\discover.php:14
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\discover.php(14): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\discover.php on line 14
+[08-Feb-2026 11:53:12 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement in C:\Users\ahmie\Desktop\Sugo\discover.php:14
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\discover.php(14): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\discover.php on line 14
+[08-Feb-2026 11:53:28 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 2031 No data supplied for parameters in prepared statement in C:\Users\ahmie\Desktop\Sugo\discover.php:14
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\discover.php(14): PDO->query('SELECT COUNT(*)...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\discover.php on line 14
+[08-Feb-2026 12:24:53 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:25:02 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:25:48 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:28:18 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:28:23 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:28:33 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[08-Feb-2026 12:31:34 Europe/Berlin] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'pm.created_at' in 'field list' in C:\Users\ahmie\Desktop\Sugo\messages.php:9
+Stack trace:
+#0 C:\Users\ahmie\Desktop\Sugo\messages.php(9): PDO->prepare('\r\n    SELECT \r\n...')
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\Sugo\messages.php on line 9
+[09-Feb-2026 05:56:56 America/New_York] Database connection failed: SQLSTATE[HY000] [1045] Access denied for user '	if0_41113124'@'192.168.0.204' (using password: YES)
+[09-Feb-2026 06:57:54 America/New_York] Database connection failed: SQLSTATE[HY000] [2002] No such file or directory
+[09-Feb-2026 07:00:00 America/New_York] Daily bonus failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[09-Feb-2026 07:02:13 America/New_York] Database connection failed: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for 	sql309.infinityfree.com failed: Name or service not known
+[09-Feb-2026 07:02:39 America/New_York] Database connection failed: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for 	sql309.infinityfree.com failed: Name or service not known
+[09-Feb-2026 07:02:42 America/New_York] Database connection failed: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for 	sql309.infinityfree.com failed: Name or service not known
+[09-Feb-2026 07:02:50 America/New_York] Database connection failed: SQLSTATE[HY000] [2002] php_network_getaddresses: getaddrinfo for 	sql309.infinityfree.com failed: Name or service not known
+[09-Feb-2026 07:03:06 America/New_York] Daily bonus failed: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[09-Feb-2026 07:07:04 America/New_York] Daily bonus failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_login_date' in 'SELECT'
+[09-Feb-2026 07:07:07 America/New_York] Daily bonus failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_login_date' in 'SELECT'
+[09-Feb-2026 07:07:38 America/New_York] Daily bonus failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'last_login_date' in 'SELECT'
+[11-Feb-2026 14:06:26 Europe/Berlin] PHP Warning:  require(PHPMailer/src/Exception.php): Failed to open stream: No such file or directory in C:\Users\ahmie\Desktop\sugo new functionalities\mail_config.php on line 8
+[11-Feb-2026 14:06:26 Europe/Berlin] PHP Fatal error:  Uncaught Error: Failed opening required 'PHPMailer/src/Exception.php' (include_path='C:\xampp\php\PEAR') in C:\Users\ahmie\Desktop\sugo new functionalities\mail_config.php:8
+Stack trace:
+#0 C:\Users\ahmie\Desktop\sugo new functionalities\register.php(4): require()
+#1 {main}
+  thrown in C:\Users\ahmie\Desktop\sugo new functionalities\mail_config.php on line 8
+[11-Feb-2026 14:08:51 Europe/Berlin] Mailer Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:08:51 Europe/Berlin] Email sending failed for biyel43554@deposin.com: Failed to send verification email. Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:09:16 Europe/Berlin] PHP Warning:  Undefined array key "email" in C:\Users\ahmie\Desktop\sugo new functionalities\register.php on line 44
+[11-Feb-2026 14:11:55 Europe/Berlin] Registration attempt - Username: admin, Email: aaallliii77992186@gmail.com
+[11-Feb-2026 14:13:22 Europe/Berlin] Registration attempt - Username: Biy, Email: biyipi9235@2insp.com
+[11-Feb-2026 14:13:22 Europe/Berlin] Mailer Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:13:22 Europe/Berlin] Registration email failed for biyipi9235@2insp.com: Failed to send verification email. Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:13:51 Europe/Berlin] Registration attempt - Username: Biya, Email: usman@gmail.com
+[11-Feb-2026 14:13:51 Europe/Berlin] Mailer Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:13:51 Europe/Berlin] Registration email failed for usman@gmail.com: Failed to send verification email. Error: Invalid address:  (From): ahmieditz@gmail
+[11-Feb-2026 14:18:51 Europe/Berlin] Registration attempt - Username: Biya, Email: usman@gmail.com
+[11-Feb-2026 14:19:02 Europe/Berlin] ✅ Verification email sent successfully to: usman@gmail.com
+[11-Feb-2026 14:19:34 Europe/Berlin] Registration attempt - Username: biua, Email: biyipi9235@2insp.com
+[11-Feb-2026 14:19:42 Europe/Berlin] ✅ Verification email sent successfully to: biyipi9235@2insp.com
+[11-Feb-2026 14:21:11 Europe/Berlin] ✅ Verification email sent successfully to: biyipi9235@2insp.com
+[11-Feb-2026 14:21:55 Europe/Berlin] ✅ Verification email sent successfully to: biyipi9235@2insp.com
+[11-Feb-2026 14:31:45 Europe/Berlin] Registration attempt - Username: Yeki, Email: yekib49573@deposin.com
+[11-Feb-2026 14:32:00 Europe/Berlin] ✅ Verification email sent successfully to: yekib49573@deposin.com
+[11-Feb-2026 14:39:38 Europe/Berlin] Registration attempt - Username: Tebi, Email: tebibij896@deposin.com
+[11-Feb-2026 14:39:44 Europe/Berlin] ✅ Verification email sent successfully to: tebibij896@deposin.com
+[11-Feb-2026 14:48:03 Europe/Berlin] Registration attempt - Username: sara, Email: saraxex229@deposin.com
+[11-Feb-2026 14:48:08 Europe/Berlin] ✅ Verification email sent successfully to: saraxex229@deposin.com
+[11-Feb-2026 14:50:23 Europe/Berlin] ✅ Verification email sent successfully to: saraxex229@deposin.com
+[11-Feb-2026 14:50:23 Europe/Berlin] OTP resent to: saraxex229@deposin.com
+[11-Feb-2026 14:53:22 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\Users\ahmie\Desktop\sugo new functionalities\config.php on line 10
+[11-Feb-2026 14:53:37 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\Users\ahmie\Desktop\sugo new functionalities\config.php on line 10
+[11-Feb-2026 14:54:21 Europe/Berlin] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in C:\Users\ahmie\Desktop\sugo new functionalities\config.php on line 10
+[11-Feb-2026 14:54:21 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 14:54:21 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 629795
+    [otp_1] => 
+    [otp_2] => 
+    [otp_3] => 
+    [otp_4] => 
+    [otp_5] => 
+    [otp_6] => 
+    [otp_combined] => 
+)
+
+[11-Feb-2026 14:54:21 Europe/Berlin] User ID: 23
+[11-Feb-2026 14:54:21 Europe/Berlin] OTP entered: [629795]
+[11-Feb-2026 14:54:21 Europe/Berlin] OTP length: 6
+[11-Feb-2026 14:54:21 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 14:54:21 Europe/Berlin] DB Code: [629795]
+[11-Feb-2026 14:54:21 Europe/Berlin] DB Expiry: 2026-02-11 15:00:17
+[11-Feb-2026 14:54:21 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 14:54:21 Europe/Berlin] User entered: [629795]
+[11-Feb-2026 14:54:46 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 14:54:46 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 629795
+    [otp_1] => 
+    [otp_2] => 
+    [otp_3] => 
+    [otp_4] => 
+    [otp_5] => 
+    [otp_6] => 
+    [otp_combined] => 
+)
+
+[11-Feb-2026 14:54:46 Europe/Berlin] User ID: 23
+[11-Feb-2026 14:54:46 Europe/Berlin] OTP entered: [629795]
+[11-Feb-2026 14:54:46 Europe/Berlin] OTP length: 6
+[11-Feb-2026 14:54:46 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 14:54:46 Europe/Berlin] DB Code: [629795]
+[11-Feb-2026 14:54:46 Europe/Berlin] DB Expiry: 2026-02-11 15:00:17
+[11-Feb-2026 14:54:46 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 14:54:46 Europe/Berlin] User entered: [629795]
+[11-Feb-2026 14:56:32 Europe/Berlin] ✅ Verification email sent successfully to: biyipi9235@2insp.com
+[11-Feb-2026 14:56:41 Europe/Berlin] ✅ Verification email sent successfully to: biyipi9235@2insp.com
+[11-Feb-2026 14:56:41 Europe/Berlin] ✅ OTP resent to: biyipi9235@2insp.com
+[11-Feb-2026 14:57:43 Europe/Berlin] Registration attempt - Username: Coji, Email: cojige9650@deposin.com
+[11-Feb-2026 14:57:50 Europe/Berlin] ✅ Verification email sent successfully to: cojige9650@deposin.com
+[11-Feb-2026 14:58:18 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 14:58:18 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 420437
+    [otp_1] => 
+    [otp_2] => 
+    [otp_3] => 
+    [otp_4] => 
+    [otp_5] => 
+    [otp_6] => 
+    [otp_combined] => 
+)
+
+[11-Feb-2026 14:58:18 Europe/Berlin] User ID: 24
+[11-Feb-2026 14:58:18 Europe/Berlin] OTP entered: [420437]
+[11-Feb-2026 14:58:18 Europe/Berlin] OTP length: 6
+[11-Feb-2026 14:58:18 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 14:58:18 Europe/Berlin] DB Code: [420437]
+[11-Feb-2026 14:58:18 Europe/Berlin] DB Expiry: 2026-02-11 15:07:43
+[11-Feb-2026 14:58:18 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 14:58:18 Europe/Berlin] User entered: [420437]
+[11-Feb-2026 14:58:39 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 14:58:39 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 420437
+    [otp_1] => 
+    [otp_2] => 
+    [otp_3] => 
+    [otp_4] => 
+    [otp_5] => 
+    [otp_6] => 
+    [otp_combined] => 
+)
+
+[11-Feb-2026 14:58:39 Europe/Berlin] User ID: 24
+[11-Feb-2026 14:58:39 Europe/Berlin] OTP entered: [420437]
+[11-Feb-2026 14:58:39 Europe/Berlin] OTP length: 6
+[11-Feb-2026 14:58:39 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 14:58:39 Europe/Berlin] DB Code: [420437]
+[11-Feb-2026 14:58:39 Europe/Berlin] DB Expiry: 2026-02-11 15:07:43
+[11-Feb-2026 14:58:39 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 14:58:39 Europe/Berlin] User entered: [420437]
+[11-Feb-2026 14:58:59 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 14:58:59 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 420437
+    [otp_1] => 
+    [otp_2] => 
+    [otp_3] => 
+    [otp_4] => 
+    [otp_5] => 
+    [otp_6] => 
+    [otp_combined] => 
+)
+
+[11-Feb-2026 14:58:59 Europe/Berlin] User ID: 24
+[11-Feb-2026 14:58:59 Europe/Berlin] OTP entered: [420437]
+[11-Feb-2026 14:58:59 Europe/Berlin] OTP length: 6
+[11-Feb-2026 14:58:59 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 14:58:59 Europe/Berlin] DB Code: [420437]
+[11-Feb-2026 14:58:59 Europe/Berlin] DB Expiry: 2026-02-11 15:07:43
+[11-Feb-2026 14:58:59 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 14:58:59 Europe/Berlin] User entered: [420437]
+[11-Feb-2026 15:00:28 Europe/Berlin] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 15:00:28 Europe/Berlin] POST Data: Array
+(
+    [csrf_token] => 94afff392a52a8aebbee2e6ce67b51575b21ea4bd011184b4648f7dbdd791ad3
+    [otp] => 629795
+    [verify] => 
+)
+
+[11-Feb-2026 15:00:28 Europe/Berlin] User ID: 24
+[11-Feb-2026 15:00:28 Europe/Berlin] OTP entered: [629795]
+[11-Feb-2026 15:00:28 Europe/Berlin] OTP length: 6
+[11-Feb-2026 15:00:28 Europe/Berlin] ❌ VERIFICATION FAILED
+[11-Feb-2026 15:00:28 Europe/Berlin] DB Code: [420437]
+[11-Feb-2026 15:00:28 Europe/Berlin] DB Expiry: 2026-02-11 15:07:43
+[11-Feb-2026 15:00:28 Europe/Berlin] DB Verified: 0
+[11-Feb-2026 15:00:28 Europe/Berlin] User entered: [629795]
+[11-Feb-2026 19:40:06 Asia/Kolkata] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 19:40:06 Asia/Kolkata] User ID: 24
+[11-Feb-2026 19:40:06 Asia/Kolkata] OTP entered: [629795]
+[11-Feb-2026 19:40:06 Asia/Kolkata] OTP length: 6
+[11-Feb-2026 19:40:06 Asia/Kolkata] ❌ User not found in database: 24
+[11-Feb-2026 19:44:22 Asia/Kolkata] ✅ Verification email sent successfully to: mobidis778@2insp.com
+[11-Feb-2026 19:44:45 Asia/Kolkata] ========== VERIFICATION ATTEMPT ==========
+[11-Feb-2026 19:44:45 Asia/Kolkata] User ID: 1
+[11-Feb-2026 19:44:45 Asia/Kolkata] OTP entered: [220987]
+[11-Feb-2026 19:44:45 Asia/Kolkata] OTP length: 6
+[11-Feb-2026 19:44:45 Asia/Kolkata] DB Code: [220987]
+[11-Feb-2026 19:44:45 Asia/Kolkata] DB Expiry: 2026-02-11 19:54:16
+[11-Feb-2026 19:44:45 Asia/Kolkata] DB Verified: 0
+[11-Feb-2026 19:44:45 Asia/Kolkata] ✅ OTP VERIFICATION SUCCESSFUL for user: 1
+[11-Feb-2026 19:44:45 Asia/Kolkata] ✅ User verified successfully, redirecting to verify_success.php
+[12-Feb-2026 00:02:46 Asia/Kolkata] ✅ Verification email sent successfully to: xetos83525@2insp.com
+[12-Feb-2026 01:01:26 Asia/Kolkata] ✅ Verification email sent successfully to: herena5073@deposin.com
+[12-Feb-2026 01:01:48 Asia/Kolkata] ========== VERIFICATION ATTEMPT ==========
+[12-Feb-2026 01:01:48 Asia/Kolkata] User ID: 3
+[12-Feb-2026 01:01:48 Asia/Kolkata] OTP entered: [775976]
+[12-Feb-2026 01:01:48 Asia/Kolkata] OTP length: 6
+[12-Feb-2026 01:01:48 Asia/Kolkata] DB Code: [775976]
+[12-Feb-2026 01:01:48 Asia/Kolkata] DB Expiry: 2026-02-12 01:11:23
+[12-Feb-2026 01:01:48 Asia/Kolkata] DB Verified: 0
+[12-Feb-2026 01:01:48 Asia/Kolkata] ✅ OTP VERIFICATION SUCCESSFUL for user: 3
+[12-Feb-2026 01:01:48 Asia/Kolkata] ✅ User verified successfully, redirecting to verify_success.php

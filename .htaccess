@@ -1,0 +1,36 @@
+# Security headers
+Header always set X-Frame-Options "DENY"
+Header always set X-Content-Type-Options "nosniff"
+Header always set X-XSS-Protection "1; mode=block"
+Header always set Referrer-Policy "strict-origin-when-cross-origin"
+
+# Protect sensitive files
+<FilesMatch "\.(sql|log|env|ini)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Protect config files
+<Files "config.php">
+    Order allow,deny
+    Deny from all
+</Files>
+
+# Prevent directory listing
+Options -Indexes
+
+# Set default index file
+DirectoryIndex index.php index.html
+
+# Allow access to PHP files
+<Files *.php>
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Pretty URLs (optional)
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^chat/([0-9]+)$ private_chat.php?user=$1 [L,QSA]
+RewriteRule ^profile/([0-9]+)$ profile_view.php?user=$1 [L,QSA]
