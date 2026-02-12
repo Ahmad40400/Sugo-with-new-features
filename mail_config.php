@@ -18,10 +18,9 @@ function sendVerificationEmail($email, $username, $otp) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'ahmieditz@gmail.com'; // YOUR EMAIL
-        $mail->Password   = 'bzcd kqtm yltb ynic'; // YOUR APP PASSWORD
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
+        // your mailing credentials....
         $mail->Timeout    = 30;
         $mail->SMTPKeepAlive = true;
         $mail->CharSet = 'UTF-8';
@@ -256,4 +255,5 @@ function updateResendTime($pdo, $user_id) {
     $stmt = $pdo->prepare("UPDATE users SET last_resend_time = NOW() WHERE id = ?");
     return $stmt->execute([$user_id]);
 }
+
 ?>
